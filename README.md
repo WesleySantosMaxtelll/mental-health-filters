@@ -8,4 +8,4 @@ The models can be in models.py as the following references:
 - GPT.L = MoE with filter of low relevance
 - GPT.HL = MoE with filter of high and low relevance
 
-Files trainer, combiner and tester are used to train each individual model, combiner build the combination of models with gating network, and tester runs on test samples.
+Files trainer, combiner and tester are used to train each individual model, combiner build the combination of models with gating network, and tester runs on test samples. In order to use GPT.HL with SMHD data, please update the encoding model as well as the labels associated with each post.
